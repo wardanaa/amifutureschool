@@ -1,0 +1,196 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "mq";
+
+$font_type0: 45px/1.1946666293674044 "Nunito", Helvetica, Arial, serif;
+$font_type1: 16px/1.5 "Nunito", Helvetica, Arial, serif;
+
+$font_color_type0: rgb(255, 244, 221);
+$font_color_type1: rgb(51, 60, 76);
+$font_color_type2: rgb(255, 255, 255);
+
+$border_radius_type0: 7px 7px 7px 7px;
+
+.video-belajar- {
+  &group {
+    display: flex;
+    background-color: $font_color_type0;
+  }
+  &group.layout {
+    position: relative;
+    overflow: hidden;
+    min-height: 1080px;
+    flex-grow: 1;
+  }
+  &flex {
+    display: flex;
+    flex-direction: column;
+  }
+  &flex.layout {
+    position: relative;
+    overflow: visible;
+    width: 558px;
+    min-width: 558px;
+    margin: 147.88px auto;
+    @include xxl {
+      width: 558px;
+      min-width: 558px;
+      margin: 74px auto;
+    }
+    @include xl {
+      width: 558px;
+      min-width: 558px;
+      margin: 37px auto;
+    }
+    @include lg {
+      width: 558px;
+      min-width: 558px;
+      margin: 25px auto;
+    }
+    @include sm {
+      width: 419px;
+      min-width: 419px;
+      margin: 25px auto;
+    }
+    @include xs {
+      width: 314px;
+      min-width: 314px;
+      margin: 25px auto;
+    }
+  }
+  &hero-title {
+    display: flex;
+    justify-content: center;
+    font: $font_type0;
+    color: $font_color_type1;
+    text-align: center;
+    letter-spacing: 0px;
+    @include lg {
+      align-items: flex-start;
+      justify-content: center;
+      font-size: 42px;
+      text-align: center;
+    }
+    @include md {
+      align-items: flex-start;
+      justify-content: center;
+      font-size: 40px;
+      text-align: center;
+    }
+    @include sm {
+      align-items: flex-start;
+      justify-content: center;
+      font-size: 36px;
+      text-align: center;
+    }
+    @include xs {
+      align-items: flex-start;
+      justify-content: center;
+      font-size: 35px;
+      text-align: center;
+    }
+  }
+  &hero-title.layout {
+    position: relative;
+    margin: 0px 13px;
+    @include xs {
+      margin: 0px 10px;
+    }
+  }
+  &content-box {
+    display: flex;
+    flex-direction: column;
+    background-color: $font_color_type2;
+    box-shadow: 0px 20px 50px 0px rgba(255, 155, 124, 0.39215686274509803);
+    border-radius: 20px 20px 20px 20px;
+  }
+  &content-box.layout {
+    position: relative;
+    overflow: visible;
+    min-height: 586px;
+    margin: 90.23px 0px 0px;
+    @include xs {
+      min-height: 586px;
+      margin: 45px 0px 0px;
+    }
+  }
+  &image {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &image.layout {
+    position: relative;
+    display: block;
+    height: 144.25px;
+    width: 150px;
+    min-width: 150px;
+    margin: 26.77px auto 0px;
+    @include xs {
+      height: 144.25px;
+      width: 150px;
+      min-width: 150px;
+      margin: 13px auto 0px;
+    }
+  }
+  &username {
+    font: $font_type1;
+    color: $font_color_type1;
+    letter-spacing: 0px;
+  }
+  &username.layout {
+    position: relative;
+    margin: 84.87px 65px 0px;
+    @include xs {
+      margin: 42px 33px 0px;
+    }
+  }
+  &rect {
+    background-color: $font_color_type0;
+    border-radius: $border_radius_type0;
+  }
+  &rect.layout {
+    position: relative;
+    height: 40px;
+    margin: 0px 64px 0px 65px;
+    @include xs {
+      height: 40px;
+      margin: 0px 32px 0px 33px;
+    }
+  }
+  &password {
+    font: $font_type1;
+    color: $font_color_type1;
+    letter-spacing: 0px;
+  }
+  &password.layout {
+    position: relative;
+    margin: 15.12px 65px 0px;
+    @include xs {
+      margin: 8px 33px 0px;
+    }
+  }
+  &group1 {
+    display: flex;
+    background-color: rgb(255, 155, 124);
+    border-radius: $border_radius_type0;
+    font: $font_type1;
+    color: $font_color_type2;
+    letter-spacing: 0px;
+    justify-content: center;
+    padding: 5px 0px 5px 0px;
+  }
+  &group1.layout {
+    position: relative;
+    overflow: visible;
+    margin: 81.14px 64px 71.86px 65px;
+    @include xs {
+      margin: 41px 32px 36px 33px;
+    }
+  }
+  &clickable {
+    cursor: pointer;
+    user-select: none;
+    transition: opacity 0.2s;
+  }
+  &clickable:hover {
+    opacity: 0.7;
+  }
+}

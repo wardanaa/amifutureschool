@@ -1,0 +1,185 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+.video-belajar-group {
+  display: flex;
+  background-color: #fff4dd; }
+
+.video-belajar-group.layout {
+  position: relative;
+  overflow: hidden;
+  min-height: 1080px;
+  flex-grow: 1; }
+
+.video-belajar-flex {
+  display: flex;
+  flex-direction: column; }
+
+.video-belajar-flex.layout {
+  position: relative;
+  overflow: visible;
+  width: 558px;
+  min-width: 558px;
+  margin: 147.88px auto; }
+  @media (max-width: 1919.98px) {
+    .video-belajar-flex.layout {
+      width: 558px;
+      min-width: 558px;
+      margin: 74px auto; } }
+  @media (max-width: 1399.98px) {
+    .video-belajar-flex.layout {
+      width: 558px;
+      min-width: 558px;
+      margin: 37px auto; } }
+  @media (max-width: 1199.98px) {
+    .video-belajar-flex.layout {
+      width: 558px;
+      min-width: 558px;
+      margin: 25px auto; } }
+  @media (max-width: 767.98px) {
+    .video-belajar-flex.layout {
+      width: 419px;
+      min-width: 419px;
+      margin: 25px auto; } }
+  @media (max-width: 575.98px) {
+    .video-belajar-flex.layout {
+      width: 314px;
+      min-width: 314px;
+      margin: 25px auto; } }
+
+.video-belajar-hero-title {
+  display: flex;
+  justify-content: center;
+  font: 45px/1.19467 "Nunito", Helvetica, Arial, serif;
+  color: #333c4c;
+  text-align: center;
+  letter-spacing: 0px; }
+  @media (max-width: 1199.98px) {
+    .video-belajar-hero-title {
+      align-items: flex-start;
+      justify-content: center;
+      font-size: 42px;
+      text-align: center; } }
+  @media (max-width: 991.98px) {
+    .video-belajar-hero-title {
+      align-items: flex-start;
+      justify-content: center;
+      font-size: 40px;
+      text-align: center; } }
+  @media (max-width: 767.98px) {
+    .video-belajar-hero-title {
+      align-items: flex-start;
+      justify-content: center;
+      font-size: 36px;
+      text-align: center; } }
+  @media (max-width: 575.98px) {
+    .video-belajar-hero-title {
+      align-items: flex-start;
+      justify-content: center;
+      font-size: 35px;
+      text-align: center; } }
+
+.video-belajar-hero-title.layout {
+  position: relative;
+  margin: 0px 13px; }
+  @media (max-width: 575.98px) {
+    .video-belajar-hero-title.layout {
+      margin: 0px 10px; } }
+
+.video-belajar-content-box {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0px 20px 50px 0px rgba(255, 155, 124, 0.392157);
+  border-radius: 20px 20px 20px 20px; }
+
+.video-belajar-content-box.layout {
+  position: relative;
+  overflow: visible;
+  min-height: 586px;
+  margin: 90.23px 0px 0px; }
+  @media (max-width: 575.98px) {
+    .video-belajar-content-box.layout {
+      min-height: 586px;
+      margin: 45px 0px 0px; } }
+
+.video-belajar-image {
+  background: var(--src) center center/contain no-repeat; }
+
+.video-belajar-image.layout {
+  position: relative;
+  display: block;
+  height: 144.25px;
+  width: 150px;
+  min-width: 150px;
+  margin: 26.77px auto 0px; }
+  @media (max-width: 575.98px) {
+    .video-belajar-image.layout {
+      height: 144.25px;
+      width: 150px;
+      min-width: 150px;
+      margin: 13px auto 0px; } }
+
+.video-belajar-username {
+  font: 16px/1.5 "Nunito", Helvetica, Arial, serif;
+  color: #333c4c;
+  letter-spacing: 0px; }
+
+.video-belajar-username.layout {
+  position: relative;
+  margin: 84.87px 65px 0px; }
+  @media (max-width: 575.98px) {
+    .video-belajar-username.layout {
+      margin: 42px 33px 0px; } }
+
+.video-belajar-rect {
+  background-color: #fff4dd;
+  border-radius: 7px 7px 7px 7px; }
+
+.video-belajar-rect.layout {
+  position: relative;
+  height: 40px;
+  margin: 0px 64px 0px 65px; }
+  @media (max-width: 575.98px) {
+    .video-belajar-rect.layout {
+      height: 40px;
+      margin: 0px 32px 0px 33px; } }
+
+.video-belajar-password {
+  font: 16px/1.5 "Nunito", Helvetica, Arial, serif;
+  color: #333c4c;
+  letter-spacing: 0px; }
+
+.video-belajar-password.layout {
+  position: relative;
+  margin: 15.12px 65px 0px; }
+  @media (max-width: 575.98px) {
+    .video-belajar-password.layout {
+      margin: 8px 33px 0px; } }
+
+.video-belajar-group1 {
+  display: flex;
+  background-color: #ff9b7c;
+  border-radius: 7px 7px 7px 7px;
+  font: 16px/1.5 "Nunito", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: 0px;
+  justify-content: center;
+  padding: 5px 0px 5px 0px; }
+
+.video-belajar-group1.layout {
+  position: relative;
+  overflow: visible;
+  margin: 81.14px 64px 71.86px 65px; }
+  @media (max-width: 575.98px) {
+    .video-belajar-group1.layout {
+      margin: 41px 32px 36px 33px; } }
+
+.video-belajar-clickable {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: opacity 0.2s; }
+
+.video-belajar-clickable:hover {
+  opacity: 0.7; }
